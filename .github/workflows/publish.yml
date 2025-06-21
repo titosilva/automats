@@ -28,13 +28,6 @@ jobs:
           echo "Updating package.json version to $TAG_VERSION"
           npm version --no-git-tag-version "$TAG_VERSION"
 
-      - name: Create GitHub Release
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: ${{ github.ref_name }}
-          name: Release ${{ github.ref_name }}
-          generate_release_notes: true
-
       - name: Build package
         run: npm run build || tsc
 

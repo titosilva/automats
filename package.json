@@ -1,6 +1,6 @@
 {
   "name": "@titosilva/automats",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automata in Typescript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

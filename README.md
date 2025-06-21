@@ -1,0 +1,2 @@
+# automats
+Automata in Typescript

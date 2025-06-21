@@ -1,0 +1,38 @@
+{
+  "name": "automats",
+  "version": "1.0.0",
+  "description": "Automata in Typescript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cli": "tsc -p tsconfig.cli.json && node cmd-out/cmd/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/titosilva/automats.git"
+  },
+  "keywords": [
+    "automaton",
+    "automata",
+    "typescript",
+    "computation",
+    "computer-science",
+    "theory"
+  ],
+  "author": "Tito Silva, the Mad Hatter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/titosilva/automats/issues"
+  },
+  "homepage": "https://github.com/titosilva/automats#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "commander": "^14.0.0",
+    "typescript": "^5.8.3"
+  }
+}
